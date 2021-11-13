@@ -1,0 +1,26 @@
+{
+  "name": "termux-chromecast",
+  "version": "1.0.0",
+  "description": "Controlling a chromecast via the termux hook scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreRBarata/termux-chromecast.git"
+  },
+  "author": "Andre Barata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreRBarata/termux-chromecast/issues"
+  },
+  "homepage": "https://github.com/andreRBarata/termux-chromecast#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chromecast-api": "^0.4.0",
+    "commander": "^8.3.0",
+    "express": "^4.17.1",
+    "forever": "^4.0.1"
+  }
+}
