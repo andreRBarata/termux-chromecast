@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Controlling a chromecast via the termux hook scripts",
   "main": "index.js",
+  "bin": {
+    "chromecast": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +24,8 @@
     "chromecast-api": "^0.4.0",
     "commander": "^8.3.0",
     "express": "^4.17.1",
-    "forever": "^4.0.1"
+    "forever": "^4.0.1",
+    "forever-monitor": "^3.0.3",
+    "wait-port": "^0.2.9"
   }
 }
