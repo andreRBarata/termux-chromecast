@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/node
 const express = require('express');
 const ChromecastAPI = require('chromecast-api');
 const { URL } = require('url');

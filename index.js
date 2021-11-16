@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/node
 const axios = require('axios');
 const waitPort = require('wait-port');
 const { Command } = require('commander');
