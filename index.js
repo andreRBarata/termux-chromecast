@@ -23,7 +23,7 @@ function callOnApi(callUrl) {
 program.command('play')
   .argument('<mediaUrl>')
   .action((mediaUrl) => {
-    callOnApi(`http://localhost:8078/play/${mediaUrl}`)
+    callOnApi(`http://localhost:8078/play/${encodeURIComponent(mediaUrl)}`)
   });
 
 program.command('pause')
