@@ -6,7 +6,7 @@ const { promisify: p } = require('util');
 const app = express();
 const chromecastClient = new ChromecastAPI();
 
-chromecastClient.on('device', (device) => {
+chromecastClient.once('device', (device) => {
 
   app.get('/', (req, res) =>
     res.send({connected: true})
